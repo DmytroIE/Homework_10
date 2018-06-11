@@ -71,15 +71,15 @@ input[type="radio"].visually-hidden {
 
 
 
-.main-title__item--upper,
-.section-title__item--upper
+.main-title__upper-item,
+.section-title__upper-item
 {
   font-family: 'Kaushan Script', cursive;
   display: inline-block;
 }
 
-.main-title__item--lower,
-.section-title__item--lower
+.main-title__lower-item,
+.section-title__lower-item
 {
   font-family: 'Montserrat', sans-serif;
   display: inline-block;
@@ -178,14 +178,13 @@ input[type="radio"].visually-hidden {
   cursor: pointer;
 
 }
-.form-button__img{
-  display: block;
+.form-button__icon{
   width: 100%;
   height: 100%;
   fill: #fff;
 }
 
-.form-button:hover .form-button__img{
+.form-button:hover .form-button__icon{
   display: block;
   width: 100%;
   height: 100%;
@@ -199,14 +198,14 @@ input[type="radio"].visually-hidden {
 
 }
 
-.main-title__item--upper {
+.main-title__upper-item {
 
   font-size: 72px;
   margin-bottom: 36px;
 
 }
 
-.main-title__item--lower {
+.main-title__lower-item {
 
   font-size: 150px;
   line-height: 140px;
@@ -231,6 +230,10 @@ input[type="radio"].visually-hidden {
   color: #fff;
 }
 
+.learnmore-link:hover {
+    background-color: #edb586;
+}
+
 
 /*-----MAIN-----*/
 .section-title{
@@ -240,12 +243,12 @@ input[type="radio"].visually-hidden {
   margin-bottom: 64px;
 }
 
-.section-title__item--upper{
+.section-title__upper-item{
 
   font-size: 24px;
   margin-bottom: 17px;
 }
-.section-title__item--lower {
+.section-title__lower-item {
 
   font-size: 30px;
 
@@ -300,6 +303,7 @@ input[type="radio"].visually-hidden {
 .service-card__icon{
   width: 32px;
   height: 32px;
+  fill:rgb(149, 225, 211);
 }
 
 
@@ -500,7 +504,7 @@ input[type="radio"].visually-hidden {
   color:#333333;
 }
 
-.footer-info a{
+.footer-info__link{
   text-decoration: none;
   color:#f38181;
 }
